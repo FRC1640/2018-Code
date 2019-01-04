@@ -1,0 +1,11 @@
+service androidStream
+{
+	disable = no
+	type = UNLISTED
+	socket_type = stream
+	protocol = tcp
+	user = nobody
+	wait = no
+	redirect = 127.0.0.1 5800
+	port = 5808
+}

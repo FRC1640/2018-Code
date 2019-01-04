@@ -1,0 +1,1 @@
+C:\"Program Files"\PuTTY\plink.exe -ssh admin@roboRIO-1640-FRC.local -pw "" adb shell am start com.androidFRC.androidVision/com.androidFRC.androidVision.VisionTrackerActivity

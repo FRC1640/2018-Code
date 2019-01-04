@@ -1,0 +1,51 @@
+# General
+/dist/
+
+# Eclipse
+.metadata
+/bin/
+/tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+/.settings/
+.loadpath
+.classpath
+.project
+
+# Visual Studio Code
+/.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+# !/gradle/wrapper/gradle-wrapper.jar
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# Checkstyle HTML reports
+config/checkstyle/checkstyleMain.html
+config/checkstyle/checkstyleTest.html
